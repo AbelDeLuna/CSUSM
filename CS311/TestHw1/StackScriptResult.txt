@@ -1,0 +1,31 @@
+[delun005@empress TestHw1]$ g++ client1.cpp stack.cpp stack.h
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: 45+
+The result is : 9
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: 34+
+The result is : 7
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: 345+*
+The result is : 27
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: 722+-
+The result is : 3
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: 34+56++
+The result is : 18
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: 12+34*45+-+
+The result is : 6
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: +
+Error: Missing operands.
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: 3+
+Error: Missing operands.
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: 3#
+ERROR, Invalid Element
+[delun005@empress TestHw1]$ ./a.out
+type a postfix expression: 2345+
+ERROR: Incomplete expression
